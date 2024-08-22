@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.profile-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #666666;
+}
+
+.contact-info, .medical-details, .goal-progress {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.goal-progress {
+    text-align: center;
+}
+
+.semi-circle {
+    width: 150px;
+    height: 75px;
+    background: conic-gradient(#007bff 0% 75%, #ddd 75% 100%);
+    border-radius: 150px 150px 0 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.percentage {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #007bff;
+}
